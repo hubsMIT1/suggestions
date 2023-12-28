@@ -1,0 +1,132 @@
+
+.comment-section {
+    display: none; /* hide comment section by default */
+    margin-top: 20px;
+    position: relative;
+    z-index: 9;
+  }
+  
+  .comment-section.open {
+    display: block; /* show comment section when open class is added */
+  }
+  
+  .comment-input {
+ 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    /* padding: 0.5em; */
+  margin-bottom: 1em;
+  width: 50%;
+
+   
+  }
+  textarea{
+    min-height: 25px;
+    /* width: 350px; */
+    border: solid 1px rgba(255,255,255,0.8);
+    padding: 10px 25px;
+    color: #002E40;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border-radius: 25px 0 0 0;
+    font-size: 11pt;
+    font-size: 15pt;
+    border-radius: 0 0 0 25px;
+    min-height: 50px;
+    height: 50px;
+    border-top: none;
+    margin-top: 2px ;
+    padding-left: 16px;
+    padding-right: 34px;
+    
+  }
+  
+  
+  textarea:focus{
+    border-color: #ffffff;
+    background: #ffffff;
+  }
+  
+    
+  .submit-comment {
+    /* width: 100%; */
+    background-color: #dfdfe2; /* Green */
+    color: rgb(12, 201, 27);
+    padding: 5px;
+    margin: 4px 3px;
+    /* border: 2px solid rgb(174, 182, 168); */
+
+    border-radius: 4px;
+    /* width: 60%; */
+    height: 100%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .submit-comment:hover {
+    background-color: #45a049;
+  }
+  
+  .comment-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .comment {
+   
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: #f9f9f9;
+  
+  }
+  .comment-text{
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  .comment-form{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 940px) {
+    input[type="text"] {
+      width: 100%;
+    }
+    .list .fest-title {
+      width: 100%;
+      word-wrap: break-word;
+    
+    }
+    /* ul {
+      width: 100%;
+    } */
+  
+    .comment-section {
+      flex-wrap: wrap;
+    }
+  
+    li button {
+      margin-top: 0.5em;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+  
+  }
+  
+  

@@ -1,0 +1,25 @@
+.Alert {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Alert--success {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    color: #3c763d;
+  }
+  
+  .Alert--error {
+    background-color: #f2dede;
+    border-color: #a94442;
+    color: #a94442;
+  }
+  
+  .Alert__message {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
